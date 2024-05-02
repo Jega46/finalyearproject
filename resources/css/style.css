@@ -1,0 +1,334 @@
+@font-face {
+    font-family: avenirblack;
+    src: url('../fonts/AvenirLTStd-Black.otf');
+}
+
+@font-face {
+    font-family: avenirbook;
+    src: url('../fonts/AvenirLTStd-Book.otf');
+}
+
+@font-face {
+    font-family: avenirroman;
+    src: url('../fonts/AvenirLTStd-Roman.otf');
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'avenirroman';
+    font-size: 13px;
+    height: auto;
+}
+
+div#app {
+    min-height: 100%;
+}
+
+.homeLayout {
+    min-height: 100%;
+}
+
+.ant-layout .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.ant-layout .trigger:hover {
+    color: #1890ff;
+}
+
+.site-layout .site-layout-background {
+    background: #fff;
+}
+
+section.ant-layout[collapsed=true] {
+    margin-left: 80px !important;
+}
+
+.ant-table-thead>tr>th,
+.ant-table-tbody>tr>td,
+.ant-table tfoot>tr>th,
+.ant-table tfoot>tr>td {
+    padding: 10px 6px;
+    font-size: 13px;
+}
+
+.ant-form-item-explain-error {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+p.text-sm.text-red-600 {
+    margin: 0;
+    font-size: 12px;
+    color: red;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.ant-form-item-label>label {
+    font-size: 13px;
+}
+
+.ant-menu-item .ant-menu-item-icon,
+.ant-menu-submenu-title .ant-menu-item-icon,
+.ant-menu-item .anticon,
+.ant-menu-submenu-title .anticon {
+    font-size: 20px;
+}
+
+section.ant-layout.login-layout {
+    background: #2F2E40;
+}
+
+.ant-btn-primary {
+    color: #fff;
+    border-color: #184580;
+    background: #184580;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+    color: #fff;
+    border-color: #184580;
+    background: #184580;
+}
+
+.ant-layout-sider {
+    background: #2F2E40;
+}
+
+.ant-menu-inline .ant-menu-item {
+    height: auto !important;
+}
+
+.ant-menu-dark .ant-menu-item,
+.ant-menu-dark .ant-menu-item>a,
+.ant-menu-dark .ant-menu-item>span>a {
+    color: #fff;
+    font-size: 12px;
+}
+
+header.ant-layout-header {
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.ant-layout .logo {
+    height: auto;
+    background: #fff;
+    margin: 0;
+    padding: 2px;
+}
+
+.ant-layout .logo img {
+    height: 60px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: contain;
+}
+
+
+.ant-menu.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub,
+.ant-menu.ant-menu-dark .ant-menu-sub {
+    color: #fff;
+    background: #2F2E40;
+}
+
+.ant-collapse-content>.ant-collapse-content-box {
+    padding: 16px;
+    /* background: #f0f2f5; */
+}
+
+.ant-card {
+    border: unset;
+    margin-bottom: 20px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.ant-card-body {
+    padding: 12px;
+}
+
+.about-link span {
+    border-bottom: 1px solid;
+}
+
+.about-link {
+    padding-left: 0;
+}
+
+.landingPage .strong {
+    font-weight: 600 !important;
+    font-family: avenirblack;
+}
+.landingPage .ant-card {
+    margin-bottom: 5px;
+}
+
+.bookingFooter {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffff;
+    padding: 20px;
+    box-shadow: 4px -3px 11px #dfcedb;
+}
+
+
+.adult-field .ant-col.ant-form-item-label {
+    padding-bottom: 0;
+    margin-bottom: -10px;
+}
+
+.child-field .ant-col.ant-form-item-label {
+    padding-bottom: 0;
+    margin-bottom: -10px;
+}
+
+.landingPage form.ant-form.ant-form-vertical {
+    padding-bottom: 120px;
+}
+
+@media only screen and (max-width: 767px) {
+    .landingPage {
+        padding: 5px !important;
+        margin: 10px 5px !important;
+    }
+}
+
+img.collapsed-logo {
+    display: none;
+}
+
+.ant-layout-sider-collapsed img.logo1 {
+    display: none;
+}
+
+.ant-layout-sider-collapsed img.collapsed-logo {
+    display: block;
+    width: 44px;
+    margin: 0 auto;
+}
+
+.ant-layout-content {
+    margin: 24px 16px;
+    padding: 24px;
+    background: rgb(255, 255, 255);
+    min-height: 280px;
+}
+
+h4.t1 {
+    background: #f4f4f4;
+    padding: 6px 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.ant-form-item {
+    margin-bottom: 7px;
+}
+
+.ant-form-vertical .ant-form-item-label,
+.ant-col-24.ant-form-item-label,
+.ant-col-xl-24.ant-form-item-label {
+    padding: 0 0 0px;
+}
+
+.app-logo {
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+}
+.auth-box {
+    background: #fff;
+    padding: 20px;
+    box-shadow: -1px 0px 5px 0px #ccc;
+    border-radius: 5px;
+}
+.text-right{
+    text-align: right;
+}
+.m-0{
+    margin: 0;
+}
+.ant-btn-success {
+    color: #fff;
+    border-color: #018374;
+    background: #018374;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+.quote-table td {
+    padding: 10px;
+    font-size: 12px;
+}
+.quote-table p {
+    margin: 0;
+}
+table.quote-table:nth-child(2) {
+    border-top: 0;
+}
+.quote-table table {
+    border: none;
+    margin-top: 20px;
+}
+.quote-table .highlight,.quote-table.highlight {
+    background: #cfd1e4;
+}
+.quote-table th {
+    padding-left: 10px;
+}
+.border.quote-table tr {
+    border-bottom: 1px solid #e2e2e2;
+}
+.quote-template{
+    
+    border: 1px solid #f4f4f4;
+    box-shadow: 0px 0px 3px 1px #f4f4f4;
+    padding: 10px;
+}
+.ant-btn{
+    font-size: 13px;
+}
+.small-table .ant-table-thead>tr>th, .small-table .ant-table-tbody>tr>td, .small-table.ant-table tfoot>tr>th, .small-table.ant-table tfoot>tr>td {
+    font-size: 11px;
+}
+.ant-input,.ant-select{
+    font-size: 13px;
+}
+input,
+input::placeholder {
+    font-size: 13px;
+}
+.signature-hr {
+    width: 60%;
+    display: block;
+    opacity: 0.6;
+    float: left;
+    text-align: left;
+}
+.table{
+    width:100%;
+}

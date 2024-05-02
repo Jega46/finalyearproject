@@ -1,0 +1,1 @@
+import{_ as e}from"./AuthenticatedLayout-cb5bc9f2.js";import{c as r,d as a,u as t,F as o,o as s,X as c}from"./app-af2088fa.js";const u={__name:"Dashboard",setup(n){return(_,m)=>(s(),r(o,null,[a(t(c),{title:"Dashboard"}),a(e)],64))}};export{u as default};

@@ -1,0 +1,9 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import 'bootstrap.min.css';
+@import 'font-awesome.min.css';
+@import 'line-awesome.min.css';
+@import 'morris.css';
+@import 'style.css';
